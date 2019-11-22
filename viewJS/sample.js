@@ -20,7 +20,7 @@ new Vue({
           // Write the processing of (a function in which the value entered in the input field and a ID value (ID value + 1 value registered last) newly appears)
           let element = this.students[this.students.length - 1];
           let auto = element.id + 1;
-          return this.students.push({ id: auto, name: this.name, course: this.course, period: this.period })
+          return this.students.push({ id: auto, name: this.name, course: this.course, acceptancePeriod: this.acceptancePeriod })
       
         }
     }
